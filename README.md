@@ -25,3 +25,12 @@ It is an E-Commerce/ Food Ordering System for customers to order food and drinks
   <h2>Login Page</h2>
 <img src="images/login.PNG" alt="image">
 </div>
+
+-----
+
+<div align="center">
+  <h2>User Roles</h2>
+<img src="images/user.PNG" alt="image">
+</div>
+
+-----
