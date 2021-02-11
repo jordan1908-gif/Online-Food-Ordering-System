@@ -57,6 +57,6 @@ It is an E-Commerce/ Food Ordering System for customers to order food and drinks
 -----
 
 <div align="center">
-  <h2>Order History</h2>
+  <h2>Order Status & History</h2>
 <img src="images/sorderhistory.PNG" alt="image">
 </div>
