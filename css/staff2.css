@@ -1,0 +1,24 @@
+
+        .box {
+            float:left;
+            margin:20px;
+			padding:10px;
+			width:150px;
+			height:auto;
+			background-color:#DDA0DD;
+			border-radius:10px;
+        }
+
+        input {
+            float:right;
+            background-color:#00fff2;
+        }
+
+        header {
+            background-image: url('bake1.png');
+            background-repeat: no-repeat;
+            background-size: initial;
+            background-position: center;
+            height: 150px;
+            position: relative;
+        }

@@ -1,0 +1,60 @@
+
+			body {
+				font-family: 'Raleway', sans-serif;
+			}
+			
+			.box {
+				float:left;
+				margin:10px;
+				padding:10px;
+				width:241px;
+				height:370px;
+				background-color:#9370DB;
+				border-radius:10px;
+			}
+
+			.box1 {
+				float:left;
+				margin:10px;
+				padding:10px;
+				width:241px;
+				height:200px;
+				background-color:lightskyblue;
+				border-radius:10px;
+			}
+
+			a:link.edit, a:visited.edit, a:link.delete, a:visited.delete {
+			  font-size:10pt;
+			  color: white;
+			  padding: 5px 10px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  border-radius:5px;
+			}
+
+			a:hover.edit, a:active.edit {
+			  background-color: #34ebd8 ;
+			}
+
+			a.edit {
+				background-color: Orange;
+			}
+			a:hover.delete, a:active.delete{
+			  background-color: #34ebd8 ;
+			}
+			a.delete {
+				background-color: Orange; 
+			}
+
+            header {
+                background-image: url('bake1.png');
+                background-repeat: no-repeat;
+                background-size: initial;
+                background-position: center;
+                height: 150px;
+				position: relative;
+				z-index: -1;
+			}
+			
+            

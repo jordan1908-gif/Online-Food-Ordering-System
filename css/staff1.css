@@ -1,0 +1,136 @@
+
+        *{
+         margin:0;
+         padding:0;
+         list-style:none;
+         text-decoration: none;
+         
+        }   
+        .box {
+			margin:20px;
+			padding:10px;
+			width:auto;
+			height:420px;
+			background-color: lavender;
+			border-radius:10px;
+        }
+
+        .done {
+            float:right;
+            margin-top:-100px;
+            padding:2px;
+            border-radius: 5px;
+            color: black;
+            width: 165px;
+            text-align: center;
+        }
+
+        a:visited.done {
+            background-color:lightgreen; 
+        }
+
+        a:hover.done, a:active.done {
+            background-color: red;
+			}
+
+        a.done {
+            background-color: #42d7f5;
+
+        }
+
+        .done4 {
+            margin-top: -100px;
+            float:right;
+            padding:2px;
+            border-radius: 5px;
+            color: black;
+            width: 165px;
+            text-align: center;
+            
+        }
+
+        a:visited.done4 {
+            background-color: lightgreen; 
+        }
+
+
+        a:hover.done4, a:active.done4 {
+            background-color: red;
+			}
+
+        a.done4 {
+            background-color: #42d7f5;
+
+        }
+
+        .done5 {
+            float:right;
+            margin-top:-100px;
+            padding:2px;
+            border-radius: 5px;
+            color: black;
+            width: 165px;
+            text-align: center;
+        }
+
+        a:visited.done5 {
+            background-color:lightgreen; 
+        }
+
+        a:hover.done5, a:active.done5 {
+            background-color: red;
+			}
+
+        a.done5 {
+            background-color:#42d7f5;
+
+        }
+
+        .done6 {
+            float:right;
+            margin-top:-100px;
+            padding:2px;
+            border-radius: 5px;
+            color: black;
+            text-align: center;
+        }
+
+        a:visited.done6 {
+            background-color:lightgreen; 
+        }
+
+        a:hover.done6, a:active.done6 {
+            background-color: red;
+			}
+
+        a.done6 {
+            background-color:#42d7f5;
+
+        }
+
+        .done7 {
+            float:right;
+            margin-top:-520px;
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            border-radius: 60%;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            
+            
+            
+            
+        }
+
+        header {
+            background-image: url('bake1.png');
+            background-repeat: no-repeat;
+            background-size: initial;
+            background-position: center;
+            height: 150px;
+            position: relative;
+        }
+
+        

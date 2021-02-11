@@ -1,0 +1,88 @@
+body{
+   
+    background-position: center;
+    background-size: center;
+}
+
+.login-box {
+    max-width: 700px;
+    float: none;
+    margin: 150px auto;
+    margin-left: 400px;
+    margin-top: 200px;
+    
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 50px);
+}
+
+.avatar1{
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 50px);
+}
+
+a{
+    color: #000 !important;
+    margin-top: -200px !important;
+}
+
+h1{
+    color: #000 !important;
+    margin-top: 200px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header {
+    background-image: url('tealove1.png');
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    
+
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 50px 0 50px;
+    width: 100%;
+}
+
+.login-left{
+    background: rgba(211,211,211,0.5);
+    padding: 30px;
+}
+

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carme', sans-serif; 
+}
+
+
+
+header {
+    background-image: url('bake1.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    width:100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    
+
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 150;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 1px 10px 10px;
+    width: 90%;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+li {
+    display: inline-block; 
+}
+
+
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: Lighter; 
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+
+
+

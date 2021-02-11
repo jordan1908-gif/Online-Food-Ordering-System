@@ -1,0 +1,112 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+.form-div {
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    border:1px solid #000;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-div.login {
+    margin-top:130px;
+    margin-right:380px;
+}
+
+.form-div.login2{
+    margin-top:200px;
+    margin-right:580px;
+}
+
+
+header {
+    background-image: url('tealove1.png');
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+
+
+
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 80px 0 90px;
+    width: 100%;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: Lighter; 
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin-top: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.avatar1{
+    width: 100px;
+    height: 100px;
+    margin-top: 220px;
+    margin-left: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+

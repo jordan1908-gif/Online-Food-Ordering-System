@@ -1,0 +1,222 @@
+body {
+  background-image: url;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  color: black ;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  background-color: linen
+}
+
+.progress {
+  margin: 150px auto;
+}
+
+.progress1 {
+  margin: -70px auto;
+}
+
+.progress img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.progress1 img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  width: 200px;
+  position: relative;
+}
+
+ul li .fa{
+  background: #ccc;
+  width: 16px;
+  height: 16px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+ul li .fa::after{
+  content: '';
+  background: #ccc;
+  height: 5px;
+  width: 300px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom:60px;
+  z-index: -1;
+}
+
+ul li .fas{
+  background:  #87CEFA;
+  width: 16px;
+  height: 16px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+ul li .fas::after{
+  content: '';
+  background:  #87CEFA;
+  height: 5px;
+  width: 300px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom:60px;
+  z-index: -1;
+}
+
+
+
+
+
+ul li:nth-child(5) .fa{
+  background: #87CEFA;
+}
+
+ul li:nth-child(5) .fa::after{
+  background: #87CEFA;
+}
+
+ul li:nth-child(4) .fa{
+  background: #87CEFA;
+}
+
+ul li:nth-child(4) .fa::after{
+  background: #87CEFA;
+}
+
+ul li:nth-child(3) .fa{
+  background: #87CEFA;
+}
+
+ul li:nth-child(3) .fa::after{
+  background: #87CEFA;
+}
+
+ul li:nth-child(2) .fa{
+  background: #87CEFA;
+}
+
+ul li:nth-child(2) .fa::after{
+  background: #87CEFA;
+}
+
+ul li:nth-child(1) .fa{
+  background: #87CEFA;
+}
+
+ul li:nth-child(1) .fa::after{
+  background: #87CEFA;
+}
+
+.vl {
+  border-left: 5px solid lightskyblue;
+  height: 250px;
+  margin-left:1385px;
+  bottom:257;
+  position: relative;
+  
+
+}
+
+ul li:first-child .fa::after{
+  width: 105px;
+  left: 100px;
+}
+
+ul li:first-child .fas::after{
+  width: 105px;
+  left: 100px;
+}
+
+
+
+/* navigational bar */
+header {
+  background-image: url('bake1.png');
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: center;
+  height: 150px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 10px 0 50px;
+  width: 100%;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 10px;
+  margin-left: -90px;
+}
+
+nav li span {
+  padding-left: 20px;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: Lighter; 
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+
+
+
