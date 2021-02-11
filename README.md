@@ -16,5 +16,5 @@ It is an E-Commerce/ Food Ordering System for customers to order food and drinks
 
 <div align="center">
   <h2>Home Page</h2>
-<img src="/Online-Food-Ordering-System/screenshots/001.gif" alt= "image">
+<img src="/Online-Food-Ordering-System/images/homepage.png" alt= "image">
 </div>
