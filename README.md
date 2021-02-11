@@ -48,3 +48,15 @@ It is an E-Commerce/ Food Ordering System for customers to order food and drinks
 </div>
 
 -----
+
+<div align="center">
+  <h2>Checkout</h2>
+<img src="images/checkout.PNG" alt="image">
+</div>
+
+-----
+
+<div align="center">
+  <h2>Order History</h2>
+<img src="images/orderhistory.PNG" alt="image">
+</div>
