@@ -51,12 +51,12 @@ It is an E-Commerce/ Food Ordering System for customers to order food and drinks
 
 <div align="center">
   <h2>Checkout</h2>
-<img src="images/checkout.PNG" alt="image">
+<img src="images/scheckout.PNG" alt="image">
 </div>
 
 -----
 
 <div align="center">
   <h2>Order History</h2>
-<img src="images/orderhistory.PNG" alt="image">
+<img src="images/sorderhistory.PNG" alt="image">
 </div>
