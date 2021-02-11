@@ -34,3 +34,17 @@ It is an E-Commerce/ Food Ordering System for customers to order food and drinks
 </div>
 
 -----
+
+<div align="center">
+  <h2>Menu</h2>
+<img src="images/menu.PNG" alt="image">
+</div>
+
+-----
+
+<div align="center">
+  <h2>Shopping Cart</h2>
+<img src="images/cart.PNG" alt="image">
+</div>
+
+-----
