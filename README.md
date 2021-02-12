@@ -47,7 +47,7 @@ It is an E-Commerce/ Food Ordering System for customers to order food and drinks
 
 4. Type localhost/Online-Food-Ordering-System/php/homepage.php. 
 
-## Demos and Screenshot (Customer ONLY)
+## Screenshot (Customer ONLY)
 
 -----
 
