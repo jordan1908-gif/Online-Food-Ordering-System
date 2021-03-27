@@ -45,7 +45,7 @@ It is an E-Commerce/ Food Ordering System for customers to order food and drinks
 
 3. Run the program using local host in default browser.
 
-4. Type localhost/Online-Food-Ordering-System/php/homepage.php. 
+4. Enter localhost/Online-Food-Ordering-System/php/homepage.php. 
 
 ## Screenshot (Customer ONLY)
 
