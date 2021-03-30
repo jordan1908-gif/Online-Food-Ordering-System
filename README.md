@@ -1,5 +1,5 @@
 # Online-Food-Ordering-System
-It is an E-Commerce/ Food Ordering System for customers to order food and drinks through the online website. 
+It is an E-Commerce/ Food Ordering System for customers to order food and drinks through the online website. <br>
 Note: Only the home page is fully responsive.
 
 * Customer
