@@ -202,7 +202,7 @@ $(document).ready(function(){
                 var qty = $el.find(".itemQty").val();
                 if(qty<1){
                     alert('No negative quantity allowed!');
-                    $el.find(".itemQty").val(1);
+                    location.reload(true);
                 }
                 else {
                 location.reload(true);
