@@ -200,6 +200,11 @@ $(document).ready(function(){
                 var pid = $el.find(".pid").val();
                 var pprice = $el.find(".pprice").val();
                 var qty = $el.find(".itemQty").val();
+                if(qty<1){
+                    alert('No negative quantity allowed!');
+                    $el.find(".itemQty").val(1);
+                }
+                else {
                 location.reload(true);
                 
                 $.ajax({
@@ -211,6 +216,7 @@ $(document).ready(function(){
                         console.log(response);
                     }
                 });
+                }
             });
        
         load_cart_item_number();
