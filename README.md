@@ -97,5 +97,5 @@ Note: Only the home page is fully responsive.
 
 <div align="center">
   <h2>Order Status & History</h2>
-<img src="images/sorderhistory.PNG" alt="image">
+<img src="images/status.PNG" alt="image">
 </div>
