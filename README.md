@@ -11,8 +11,9 @@ Note: Only the home page is fully responsive.
 •	Add items into cart
 •	Remove items from cart
 •	Checkout and make payment
-• View Delivery Status
-•	View Order History
+• View delivery status
+• Cancel orders placed
+•	View order history
 •	Logout from account
  
 * Staff 
